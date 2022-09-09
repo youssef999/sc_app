@@ -60,7 +60,7 @@ class _MainDrawerState extends State<MainDrawer> {
                     leading: Container(
                         height: 90,
                         width: 90,
-                        child: Image.asset("assets/sc.png")),
+                        child: Image.asset("assets/about.png")),
                     title: Text("about".tr,style: TextStyle(color:Colors.black,fontSize:17),),
                     onTap:(){
                       Get.to(AppTerms(
@@ -106,7 +106,7 @@ class _MainDrawerState extends State<MainDrawer> {
                   leading: Container(
                       height: 90,
                       width: 90,
-                      child: Image.asset("assets/form.jpg")),
+                      child: Image.asset("assets/lang.png")),
                   title: Text("language".tr,style: TextStyle(color:Colors.black,fontSize:17),),
                   onTap: () {
                     Get.to(Language());
